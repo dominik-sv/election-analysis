@@ -1,0 +1,3 @@
+aggregate xml data (they are flow data)
+use most granular population data
+regress demographic data on election data
