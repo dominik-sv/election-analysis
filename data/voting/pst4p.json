@@ -1,0 +1,316 @@
+{
+  "@context": ["http://www.w3.org/ns/csvw",{"@language": "cs"}],
+  "url": "pst4p.csv",
+  "dc:description": "Data z přílohy č. 1 k tiskopisu T/4 zápisu komise v kompletní podobě (široká struktura)", 
+  "tableSchema": { 
+    "columns": [{
+      "name": "ID_OKRSKY",
+      "titles": "ID_OKRSKY",
+      "dc:description": "Odkaz na identifikaci okrsku (FK)",
+      "required": false,
+      "datatype": "number"
+    },{
+      "name": "TYP_FORM",
+      "titles": "TYP_FORM",
+      "dc:description": "Obsah dat ve větě (1 = T/4, 2 = příloha T/4, 3 = součtová věta TS)",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "OPRAVA",
+      "titles": "OPRAVA",
+      "dc:description": "Příznak dodatečné opravy na přebíracím místě v případě chyby (1 = opraven, 0 = neopraven)",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "CHYBA",
+      "titles": "CHYBA",
+      "dc:description": "Příznak chyby (pustitelné) v datech (1 = je chyba, 0 = není chyba)",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "OKRES",
+      "titles": "OKRES",
+      "dc:description": "Kód okresu dle CNUMNUTS",
+      "required": false,
+      "datatype": "number"
+    },{
+      "name": "OBEC",
+      "titles": "OBEC",
+      "dc:description": "Kód obce dle COCO",
+      "required": false,
+      "datatype": "number"
+    },{
+      "name": "OKRSEK",
+      "titles": "OKRSEK",
+      "dc:description": "Číslo okrsku v rámci obce",
+      "required": false,
+      "datatype": "number"
+    },{
+      "name": "KC_1",
+      "titles": "KC_1",
+      "dc:description": "Kontrolní číslo 1 (MODULO7)",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "KSTRANA",
+      "titles": "KSTRANA",
+      "dc:description": "Vylosované číslo strany",
+      "required": false,
+      "datatype": "number"
+    },{
+      "name": "POC_HLASU",
+      "titles": "POC_HLASU",
+      "dc:description": "Počet platných hlasů pro stranu",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "KC_2",
+      "titles": "KC_2",
+      "dc:description": "Kontrolní číslo 2",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_01",
+      "titles": "HLASY_01",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 1",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_02",
+      "titles": "HLASY_02",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 2",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_03",
+      "titles": "HLASY_03",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 3",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_04",
+      "titles": "HLASY_04",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 4",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_05",
+      "titles": "HLASY_05",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 5",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_06",
+      "titles": "HLASY_06",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 6",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_07",
+      "titles": "HLASY_07",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 7",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_08",
+      "titles": "HLASY_08",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 8",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_09",
+      "titles": "HLASY_09",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 9",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_10",
+      "titles": "HLASY_10",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 10",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_11",
+      "titles": "HLASY_11",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 11",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_12",
+      "titles": "HLASY_12",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 12",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_13",
+      "titles": "HLASY_13",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 13",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_14",
+      "titles": "HLASY_14",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 14",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_15",
+      "titles": "HLASY_15",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 15",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_16",
+      "titles": "HLASY_16",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 16",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_17",
+      "titles": "HLASY_17",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 17",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_18",
+      "titles": "HLASY_18",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 18",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_19",
+      "titles": "HLASY_19",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 19",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_20",
+      "titles": "HLASY_20",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 20",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_21",
+      "titles": "HLASY_21",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 21",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_22",
+      "titles": "HLASY_22",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 22",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_23",
+      "titles": "HLASY_23",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 23",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_24",
+      "titles": "HLASY_24",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 24",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_25",
+      "titles": "HLASY_25",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 25",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_26",
+      "titles": "HLASY_26",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 26",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_27",
+      "titles": "HLASY_27",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 27",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_28",
+      "titles": "HLASY_28",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 28",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_29",
+      "titles": "HLASY_29",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 29",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_30",
+      "titles": "HLASY_30",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 30",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_31",
+      "titles": "HLASY_31",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 31",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_32",
+      "titles": "HLASY_32",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 32",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_33",
+      "titles": "HLASY_33",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 33",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_34",
+      "titles": "HLASY_34",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 34",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_35",
+      "titles": "HLASY_35",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 35",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_36",
+      "titles": "HLASY_36",
+      "dc:description": "Počet přednostních hlasů pro kandidáta s pořadovým číslem 36",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "KC_3",
+      "titles": "KC_3",
+      "dc:description": "Kontrolní číslo 3",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "KC_4",
+      "titles": "KC_4",
+      "dc:description": "Kontrolní číslo 4 ",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "POSL_KAND",
+      "titles": "POSL_KAND",
+      "dc:description": "Poslední číslo kandidáta strany, který získal přednostní hlasy",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "KC_SUM",
+      "titles": "KC_SUM",
+      "dc:description": "Sumární kontrolní číslo přílohy T4",
+      "required": true,
+      "datatype": "number"
+    }
+    ],
+    "primaryKey": ["ID_OKRSKY","KSTRANA"]
+  }
+}
